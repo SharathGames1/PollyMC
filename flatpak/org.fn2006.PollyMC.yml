@@ -75,7 +75,7 @@ modules:
     build-commands:
       - mkdir -p /app/utils/gamescope
       - install -Dm755 prime-run /app/bin/prime-run
-      - mv /app/bin/pollymc /app/bin/prismrun
+      - mv /app/bin/pollymc /app/bin/pollyrun
       - install -Dm755 pollymc /app/bin/pollymc
     sources:
       - type: file
